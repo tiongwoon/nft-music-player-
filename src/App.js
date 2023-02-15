@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { createClient, configureChains, mainnet, goerli, WagmiConfig, useAccount, useConnect, useDisconnect } from 'wagmi';
 import { alchemyProvider } from 'wagmi/providers/alchemy';
@@ -8,7 +7,7 @@ import { Alchemy, Network } from 'alchemy-sdk';
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 import Button from '@mui/material/Button';
-import { Alert, Box, Container, Grid, List, ListItem, Paper } from '@mui/material';
+import { Alert, Box, Container, Grid, Paper } from '@mui/material';
 
 
 
@@ -163,28 +162,6 @@ function Profile() {
     </Container>
   )
 }
-
-
-
-//Component for music player, re-renders to play the current selected song 
-// function Player({currentSourceLink, setCurrentPlayingSongIndex, currentPlayingSongIndex}) {
-//   console.log('current song is', currentSourceLink);
-//   console.log("here");
-//   function onEndedHandler() {
-//     setCurrentPlayingSongIndex(currentPlayingSongIndex + 1);
-//     songAutoPlayNextInSequence();.0 
-//   }
-
-//   return (
-//   <AudioPlayer
-//     autoPlay
-//     src={currentSourceLink}
-//     onPlay={e => console.log("on play")}
-//     showSkipControls = 'true'
-//     onEnded={}
-//   />
-//   )
-// }
 
 function App() {
   return (
