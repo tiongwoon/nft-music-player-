@@ -14,7 +14,8 @@ Using React for front-end, wagmi.sh for hooks, Alchemy API to query NFTs and a l
 In the project directory, you can run:
 
 ### to clone the project
-```git clone <URL>
+```
+git clone https://github.com/tiongwoon/nft-music-player-.git
 npm install
 ```
 
