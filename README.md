@@ -6,6 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## What it does
 A website that allows you to listen to your music NFTs, with auto playback and loop functions. 
 
+The user flow:
+1. Connect your Metamask wallet
+2. The website auto-loads your music NFTs (currently only supports sound.xyz)
+3. Click to play any of the tracks
+4. The playlist will keep looping, you can also skip or keep a track on repeat. 
+
 ## Built with
 Using React for front-end, wagmi.sh for hooks, Alchemy API to query NFTs and a library for music player.
 
